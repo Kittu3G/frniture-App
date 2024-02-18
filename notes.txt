@@ -1,0 +1,23 @@
+react - React is a JavaScript library for building UI. used to build single-page applications. allows us to create reusable UI components.
+also can be use for multi page application , as a part of it .
+
+npm start - command line (defined in package.json file)script..
+
+src - source file 
+
+function components - function returns ui 
+Components are one of the core concepts of React. They are the foundation upon which you build user interfaces (UI), which makes them the perfect place to start your React journey!
+we use function as a tag
+
+should always use capital for components name.
+
+export property - can export two components  together by remaoving default like :  ( export {comp1 , comp2}); act as object 
+have to import like : import {Video }... as object
+import {comp1 , comp2}
+
+Rules for jsx - 
+
+props - function Video(props) - old way , function Video({title}) passing as object 
+
+conditional rendering - 
+let verified = true;
